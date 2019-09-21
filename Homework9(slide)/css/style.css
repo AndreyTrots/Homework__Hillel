@@ -1,0 +1,457 @@
+body {
+	font: 18px/23px Proxima Nova Rg, sans-serif;
+	background: #f2f2f2;
+	min-width: 1190px;
+}
+
+/*header*/
+
+.header-wrapper {
+	width: 100%;
+	height: 104px;
+	background: url(../images/header-img.jpg) no-repeat;
+}
+.header	{
+	width: 1173px;
+	margin: 0 auto;
+	padding-top: 21px;
+}
+.header strong {
+	font-family: Klavika-osf, sans-serif;
+	font-size: 28px;
+	color: #ffffff;
+	line-height: 31px;
+	text-transform: uppercase;
+}
+.header strong:first-child {
+	font-family: Klavika Bd, sans-serif;
+	
+}
+.header .title {
+	width: 265px;
+	display: block;
+	float: left;
+}
+
+/*nav-header*/
+
+.nav-header {
+	float:right;
+	width: 390px;
+	font: 16px Klavika-osf, sans-serif;
+}
+.nav-header ul li {
+	display: inline-block;
+	color: #ffffff;
+	padding-left: 33px;
+}
+.nav-header ul {
+	margin-left: ;
+	float: right;
+}
+.nav-header ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.nav-header ul li a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+/*nav*/
+
+.content {
+	background: #fff;
+}
+.nav {
+	width: 1190px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 14px;
+}
+.nav ul{
+  display: inline-block;
+}
+.nav ul li{
+  float: left;
+  font: 20px Klavika-plain, sans-serif;
+  padding-right: 45px;
+  padding-left: 4px;
+}
+.nav ul li:last-child {
+  padding-right: 0;
+  float: right;
+}
+.nav ul li a{
+  color: #a71c1c;
+  text-decoration: none;
+}
+.nav ul li a:hover{
+  text-decoration: underline;
+}
+
+/*container bg*/
+
+.container {
+	background: url(http://hq-wallpapers.ru/wallpapers/7/hq-wallpapers_ru_nature_33645_1920x1080.jpg);
+	background-size: cover;
+	height: 460px;
+	position: relative;
+}
+.gallery {
+	width: 100%;
+	height: 460px;
+	position: relative;
+}
+.gallery1 {
+	background: url(../images/bg-container.jpg) no-repeat 50% 0;
+	height: 460px;
+}
+.gallery2 {
+	background: url(../images/akpp-4-1920h500-1.jpg) no-repeat 50% 0;
+	height: 460px;
+}
+.gallery3 {
+	background: url(../images/gal.jpg) no-repeat 50% 0;
+	height: 460px;
+}
+.container-holder{
+	width: 1190px;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 595px);
+}
+.container-title {
+	background: url(../images/bg-title.png) no-repeat;
+	width: 770px;
+	height: 175px;
+	opacity: 0.9;
+	position: absolute;
+	bottom: 0;
+	
+}
+.container-title p {
+	font: 60px Klavika-plain-reg, sans-serif;
+	color: #ffffff;
+	margin: 25px 15px 23px 20px;
+}
+
+/*main*/
+
+.main {
+	width: 1173px;
+	margin: 0 auto;
+	background: #f2f2f2;
+}
+.main:after{
+	content:'';
+	clear: both;
+	display: block;
+}
+.section {
+	
+	width: 770px;
+	float: left;
+}
+.section h1 {
+	font: 36px Klavika-plain-reg, sans-serif;
+	color: #c82121;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+.section p {
+	font: 18px ;
+	padding-bottom: 53px;
+}
+
+.list-block h2 {
+	font: 20px Klavika Bd, sans-serif;
+	color: #c82121;
+	padding-bottom: 25px;
+}
+.list-block {
+	float: left;
+	width: 370px;
+}
+.list-block ul li:before{
+  	content:'✔';
+  	font-size: 18px;
+  	position: absolute;
+ 	left: -15px;
+ 	color: #c82121;
+}
+.list-block ul li{
+ 	margin-left: 15px;
+  	position: relative;
+  	padding-left: 15px;
+  	padding-bottom: 21px;
+}
+.list-block:last-child {
+	float: right;
+}
+
+
+.form{
+	float: right;
+	margin-top: -175px;
+	width: 390px;
+	position: relative;
+	background: #f2f2f2;
+	border-left: 2px solid #dedede;
+}
+.form [type="text"],
+.form [type="email"],
+.form [type="number"]{
+	width: 305px;
+	height: 38px;
+	margin: 28px 34px 0 32px;
+}
+legend {
+	font: 25px Klavika-plain, sans-serif;
+	color: #a71c1c;
+	padding: 28px 34px 0 32px;
+}
+input {
+
+	margin-bottom: 20px;
+	margin: 28px 0 0 32px;
+	border: 1px solid #cac9c9;
+	background: #dedddd;
+	border-radius: 3px;
+	padding-left: 10px;
+}
+textarea {
+	width: 305px;
+	height: 138px;
+	margin: 28px 34px 0 32px;
+	border: 1px solid #cac9c9;
+	background: #dedddd;
+	border-radius: 3px;
+	resize: none;
+	padding-left: 10px;
+	font: 18px Klavika-osf, sans-serif;
+}
+.send-button {
+	width: 305px;
+	height: 48px;
+	margin: 28px 34px 0 32px;
+	background: #c82121;
+	color: #ffffff;
+	font: 18px Klavika-plain, sans-serif;
+	border-color: #c82121; 
+	border-radius: 3px;
+}
+
+.container-auto {
+	width: 100%;
+	height: 608px;
+	background: #e2e1e1;
+	
+}
+
+.container-list h1 {
+	font: 36px Klavika-plain-reg, sans-serif;
+	padding-top: 55px;
+}
+
+.container-list {
+	width: 1178px;
+	height: 607px;
+	margin: auto;
+}
+.section-list-block {
+	width: 802px;
+	float: left;
+}
+
+.section-list-block li {
+	float: left;
+	width: 239px;
+	height: 173px;
+	display: block;
+	margin-right: 28px;
+	margin-top: 32px;
+	
+}
+.auto7 {
+	float: right;
+	width: 370px;
+	height: 377px;
+	margin-top: 126px;
+}
+
+.section-list li {
+	position: relative;
+	
+}
+.section-list span {
+	position: absolute;
+	background: url(../images/bg-auto2.png);
+	bottom: 0;
+	width: 239px;
+	height: 74px;
+	opacity: 0.9;
+}
+.section-list li a {
+	font: 20px Klavika-plain, sans-serif;
+	color: #ffffff;
+	padding-left: 18px;
+	padding-top: 18px;
+	display: block;
+	
+}
+.section-list span a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.section-list span a:hover{
+  text-decoration: underline;
+}
+.section-list span a p {
+   font: 15px Klavika-plain, sans-serif;
+}
+.auto7 {
+	position: relative;
+	width: 370px;
+	font: 40px/46px Klavika-plain-reg, sans-serif;
+}
+.auto7 blockquote{
+	position: absolute;
+	color: #ffffff;
+	padding-left: 30px;
+	font: 40px/50px Klavika-plain-reg, sans-serif;
+}
+.auto7 strong {
+	font: 225px Klavika-plain-reg, sans-serif;
+	height: 74px;
+	display: block;
+	padding-bottom: 20px;
+	color: #ffffff;
+	padding-left: 0;
+}
+blockquote p {
+	font: 15px Klavika-plain-reg, sans-serif;
+}
+blockquote b {
+	font: 15px Klavika Bd, sans-serif;
+}
+
+/*footer*/
+
+.footer-wrappper {
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg-footer.jpg) no-repeat;
+	padding-top: 77px;
+}
+.footer {
+	width: 1180px;
+	height: 635px;
+	margin: auto;
+	position: relative;
+}
+.footer-list {
+	width: 700px;
+	height: 565px;
+	float: left;
+}
+.footer-content {
+	width: 300px;
+	height: 230px;
+	float: left;
+	margin-right: 28px;
+	margin-bottom: 60px;
+	
+}
+.footer-list h1 {
+	font: 36px Klavika-osf, sans-serif;
+	color: #ffffff;
+	padding-bottom: 50px;
+}
+.footer-list h2 {
+	font: 20px Klavika-osf, sans-serif;
+	color: #ffffff;
+	padding-bottom: 25px;
+}
+.footer-list ul li {
+	font: 16px/38px Klavika-osf, sans-serif;
+	color: #ffffff;
+	border-bottom: 1px solid #cc6666;
+}
+
+.footer-address{
+	width: 470px;
+	height: 280px;
+	float: right;
+}
+.footer-address h2 {
+	font: 29px Klavika-osf, sans-serif;
+	color: #ffffff;
+	padding-bottom: 50px;
+}
+.footer-address strong {
+	font: 29px Klavika Bd, sans-serif;
+	color: #ffffff;
+}
+.footer-address h3 {
+	font: 19px/31px Klavika Bd, sans-serif;
+	color: #ffffff;
+}
+.footer-address p {
+	font: 19px/31px Klavika-plain-reg, sans-serif;
+	color: #ffffff;
+}
+.footer-address span a {
+	font: 19px/31px Klavika Bd, sans-serif;
+	color: #ffffff;
+	display: block;
+	padding-top: 20px;
+}
+.footer-address span a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-address span a:hover{
+  text-decoration: underline;
+}
+
+.contacts {
+	width: 1180px;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #cc6666;
+}
+.left-footer {
+	font: 11px Arial, sans-serif;
+	color: #ffffff;
+	float: left;
+	padding-top: 10px;
+}
+.left-footer img {
+	margin-top: 3px;
+}
+.left-footer strong {
+	font: 11px Arial, sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+}
+.contacts p {
+	float: right;
+	font: 11px Arial, sans-serif;
+	padding-top: 10px;
+}
+.contacts a {
+	font: 14px Klavika Bd, sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+.contacts a:hover{
+  text-decoration: underline;
+}
+.contacts strong {
+	margin-left: 20px;
+	font: 14px Klavika-plain-reg, sans-serif;
+	color: #ffffff;
+}
